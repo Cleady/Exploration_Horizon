@@ -1,23 +1,3 @@
-Reviewing project files to gather accurate details for the overview.
-
-Searched for regex `Minecraft|Exploration|CloudRenderer|Hotbar|World|Camera|Texture|Shader` (`**/*.{cpp,hpp,md,txt}`), 626 results
-
-Read [](file:///c%3A/Users/anhqu/Documents/Computer%20Science%20Training/PRIVATE%20PROJECT/Exploration_Horizon/CMakeLists.txt)
-
-Read [](file:///c%3A/Users/anhqu/Documents/Computer%20Science%20Training/PRIVATE%20PROJECT/Exploration_Horizon/src/main.cpp#1-1), lines 1 to 220
-
-Checking core gameplay and control details so the overview is accurate.
-
-Read [](file:///c%3A/Users/anhqu/Documents/Computer%20Science%20Training/PRIVATE%20PROJECT/Exploration_Horizon/src/main.cpp#220-220), lines 220 to 420
-
-Read [](file:///c%3A/Users/anhqu/Documents/Computer%20Science%20Training/PRIVATE%20PROJECT/Exploration_Horizon/include/World.hpp#1-1), lines 1 to 220
-
-Read [](file:///c%3A/Users/anhqu/Documents/Computer%20Science%20Training/PRIVATE%20PROJECT/Exploration_Horizon/include/Hotbar.hpp)
-
-Reviewing the build script to include accurate usage instructions.
-
-Read [](file:///c%3A/Users/anhqu/Documents/Computer%20Science%20Training/PRIVATE%20PROJECT/Exploration_Horizon/build.bat)
-
 ## Project Overview
 
 **Exploration Horizon** is a personal Minecraft-inspired remake built in C++ with OpenGL. It recreates the feel of a childhood memory of **Exploration Lite**, turning that nostalgia into a 3D voxel world where you can explore, break blocks, place blocks, and move through procedurally generated terrain.
