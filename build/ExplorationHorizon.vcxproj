@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{09DCC120-EC7E-30C1-B212-E89665815ACB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ExplorationHorizon</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ExplorationHorizon.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ExplorationHorizon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ExplorationHorizon.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ExplorationHorizon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ExplorationHorizon.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ExplorationHorizon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ExplorationHorizon.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ExplorationHorizon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /FS</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\cmake\bin\cmake.exe -E copy_directory "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/assets" "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/Debug/assets"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>_deps\glfw-build\src\Debug\glfw3.lib;_deps\glm-build\glm\Debug\glm.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/Debug/ExplorationHorizon.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/Debug/ExplorationHorizon.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /FS</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\cmake\bin\cmake.exe -E copy_directory "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/assets" "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/Release/assets"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>_deps\glfw-build\src\Release\glfw3.lib;_deps\glm-build\glm\Release\glm.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/Release/ExplorationHorizon.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/Release/ExplorationHorizon.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /FS</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\cmake\bin\cmake.exe -E copy_directory "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/assets" "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/MinSizeRel/assets"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>_deps\glfw-build\src\MinSizeRel\glfw3.lib;_deps\glm-build\glm\MinSizeRel\glm.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/MinSizeRel/ExplorationHorizon.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/MinSizeRel/ExplorationHorizon.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /FS</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\include;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\cmake\bin\cmake.exe -E copy_directory "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/assets" "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/RelWithDebInfo/assets"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>_deps\glfw-build\src\RelWithDebInfo\glfw3.lib;_deps\glm-build\glm\RelWithDebInfo\glm.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/RelWithDebInfo/ExplorationHorizon.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/RelWithDebInfo/ExplorationHorizon.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\cmake\bin\cmake.exe "-SC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade" "-BC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build" --check-stamp-file "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeCCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeCXXCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeRCCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeSystem.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\cmake\share\cmake-4.4\Modules\FetchContent.cmake;C:\cmake\share\cmake-4.4\Modules\FetchContent\CMakeLists.cmake.in;C:\cmake\share\cmake-4.4\Modules\FindGit.cmake;C:\cmake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\cmake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\cmake\bin\cmake.exe "-SC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade" "-BC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build" --check-stamp-file "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeCCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeCXXCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeRCCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeSystem.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\cmake\share\cmake-4.4\Modules\FetchContent.cmake;C:\cmake\share\cmake-4.4\Modules\FetchContent\CMakeLists.cmake.in;C:\cmake\share\cmake-4.4\Modules\FindGit.cmake;C:\cmake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\cmake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\cmake\bin\cmake.exe "-SC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade" "-BC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build" --check-stamp-file "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeCCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeCXXCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeRCCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeSystem.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\cmake\share\cmake-4.4\Modules\FetchContent.cmake;C:\cmake\share\cmake-4.4\Modules\FetchContent\CMakeLists.cmake.in;C:\cmake\share\cmake-4.4\Modules\FindGit.cmake;C:\cmake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\cmake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\cmake\bin\cmake.exe "-SC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade" "-BC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build" --check-stamp-file "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeCCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeCXXCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeRCCompiler.cmake;C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\4.4.0\CMakeSystem.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCXXInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeCommonLanguageInclude.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeGenericSystem.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeInitializeConfigs.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeLanguageInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeRCInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeSystemSpecificInformation.cmake;C:\cmake\share\cmake-4.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Compiler\MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\ExternalProject\shared_internal_commands.cmake;C:\cmake\share\cmake-4.4\Modules\FetchContent.cmake;C:\cmake\share\cmake-4.4\Modules\FetchContent\CMakeLists.cmake.in;C:\cmake\share\cmake-4.4\Modules\FindGit.cmake;C:\cmake\share\cmake-4.4\Modules\FindPackageHandleStandardArgs.cmake;C:\cmake\share\cmake-4.4\Modules\FindPackageMessage.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Linker\MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Linker\Windows-MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-Initialize.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC-C.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows-MSVC.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\Windows.cmake;C:\cmake\share\cmake-4.4\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\main.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\Window.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\Shader.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\Camera.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\Texture.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\stb_image.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\Block.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\World.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\Hotbar.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\CloudRenderer.cpp" />
+    <ClCompile Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\src\glad.c" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\ZERO_CHECK.vcxproj">
+      <Project>{C737DCCB-AB8D-33CD-8B6C-D67165DC7A47}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-build\src\glfw.vcxproj">
+      <Project>{FDA32C3F-6CDD-3346-AF3B-404BB52F274A}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-build\glm\glm.vcxproj">
+      <Project>{56F8AD96-7205-3645-94A0-BC0613130D56}</Project>
+      <Name>glm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

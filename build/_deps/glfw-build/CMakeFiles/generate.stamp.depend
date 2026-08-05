@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-src/CMakeLists.txt
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-src/src/glfw3.pc.in
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-src/src/glfw3Config.cmake.in
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-src/src/glfw_config.h.in
+C:/cmake/share/cmake-4.4/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/cmake/share/cmake-4.4/Modules/CMakeDependentOption.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake
+C:/cmake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake
+C:/cmake/share/cmake-4.4/Modules/CheckIncludeFile.cmake
+C:/cmake/share/cmake-4.4/Modules/CheckLibraryExists.cmake
+C:/cmake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/cmake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/cmake/share/cmake-4.4/Modules/FindThreads.cmake
+C:/cmake/share/cmake-4.4/Modules/GNUInstallDirs.cmake
+C:/cmake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake
+C:/cmake/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake

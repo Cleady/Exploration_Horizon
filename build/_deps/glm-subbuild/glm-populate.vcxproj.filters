@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\67924fc6a5fec71bc10d534852697966\glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\67924fc6a5fec71bc10d534852697966\glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\67924fc6a5fec71bc10d534852697966\glm-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\67924fc6a5fec71bc10d534852697966\glm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\67924fc6a5fec71bc10d534852697966\glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\67924fc6a5fec71bc10d534852697966\glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\67924fc6a5fec71bc10d534852697966\glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\67924fc6a5fec71bc10d534852697966\glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\d49d3591c5924261229fa5638cf74087\glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\89e67e26d68778aa5fedec132d96e6ec\glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glm-subbuild\CMakeFiles\glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2341F26B-5A86-3949-B83D-83B4F5B4A39D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

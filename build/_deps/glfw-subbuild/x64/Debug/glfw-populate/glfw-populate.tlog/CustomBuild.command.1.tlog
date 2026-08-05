@@ -1,0 +1,150 @@
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\76A705F230CBB103E612A6C4EDA348D1\GLFW-POPULATE-MKDIR.RULE
+setlocal
+C:\cmake\bin\cmake.exe -Dcfgdir=/Debug -P "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\76A705F230CBB103E612A6C4EDA348D1\GLFW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\76A705F230CBB103E612A6C4EDA348D1\GLFW-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\76A705F230CBB103E612A6C4EDA348D1\GLFW-POPULATE-PATCH.RULE
+setlocal
+C:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\76A705F230CBB103E612A6C4EDA348D1\GLFW-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\76A705F230CBB103E612A6C4EDA348D1\GLFW-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\76A705F230CBB103E612A6C4EDA348D1\GLFW-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\76A705F230CBB103E612A6C4EDA348D1\GLFW-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\29325C66B09893B757B0005F5D7B3DE5\GLFW-POPULATE-COMPLETE.RULE
+setlocal
+C:\cmake\bin\cmake.exe -E make_directory "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+C:\cmake\bin\cmake.exe -E touch "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\60779541C8D48313FF5B774ECDF90871\GLFW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\cmake\bin\cmake.exe "-SC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild" "-BC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild" --check-stamp-file "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

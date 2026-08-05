@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/60779541c8d48313ff5b774ecdf90871/glfw-populate.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/29325c66b09893b757b0005f5d7b3de5/glfw-populate-complete.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/76a705f230cbb103e612a6c4eda348d1/glfw-populate-build.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/76a705f230cbb103e612a6c4eda348d1/glfw-populate-configure.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/76a705f230cbb103e612a6c4eda348d1/glfw-populate-download.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/76a705f230cbb103e612a6c4eda348d1/glfw-populate-install.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/76a705f230cbb103e612a6c4eda348d1/glfw-populate-mkdir.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/76a705f230cbb103e612a6c4eda348d1/glfw-populate-patch.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/76a705f230cbb103e612a6c4eda348d1/glfw-populate-test.rule
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-subbuild/CMakeFiles/76a705f230cbb103e612a6c4eda348d1/glfw-populate-update.rule

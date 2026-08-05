@@ -1,0 +1,40 @@
+# CMake generation dependency list for this directory.
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/CMakeLists.txt
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/4.4.0/CMakeCCompiler.cmake
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/4.4.0/CMakeCXXCompiler.cmake
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/4.4.0/CMakeRCCompiler.cmake
+C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/4.4.0/CMakeSystem.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeCInformation.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeRCInformation.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake
+C:/cmake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake
+C:/cmake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/cmake/share/cmake-4.4/Modules/Compiler/MSVC-C.cmake
+C:/cmake/share/cmake-4.4/Modules/Compiler/MSVC-CXX.cmake
+C:/cmake/share/cmake-4.4/Modules/Compiler/MSVC.cmake
+C:/cmake/share/cmake-4.4/Modules/ExternalProject/shared_internal_commands.cmake
+C:/cmake/share/cmake-4.4/Modules/FetchContent.cmake
+C:/cmake/share/cmake-4.4/Modules/FetchContent/CMakeLists.cmake.in
+C:/cmake/share/cmake-4.4/Modules/FindGit.cmake
+C:/cmake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/cmake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/cmake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/cmake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake
+C:/cmake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/cmake/share/cmake-4.4/Modules/Linker/MSVC-C.cmake
+C:/cmake/share/cmake-4.4/Modules/Linker/MSVC-CXX.cmake
+C:/cmake/share/cmake-4.4/Modules/Linker/MSVC.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/Windows.cmake
+C:/cmake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake

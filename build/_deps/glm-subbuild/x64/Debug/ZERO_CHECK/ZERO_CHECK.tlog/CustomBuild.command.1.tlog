@@ -1,0 +1,10 @@
+^C:\USERS\ANHQU\DOCUMENTS\COMPUTER SCIENCE TRAINING\PRIVATE PROJECT\MINECRAFT_HOMEMADE\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\89E67E26D68778AA5FEDEC132D96E6EC\GENERATE.STAMP.RULE
+setlocal
+C:\cmake\bin\cmake.exe "-SC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glm-subbuild" "-BC:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glm-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glm-subbuild/glm-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

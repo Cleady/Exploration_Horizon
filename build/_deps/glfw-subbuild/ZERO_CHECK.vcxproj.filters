@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-subbuild\CMakeFiles\60779541c8d48313ff5b774ecdf90871\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2314680D-2E86-3C77-822A-D312D7AC2C0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

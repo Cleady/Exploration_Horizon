@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\CMakeFiles\b8535c5cf0c4a6435e563b70ec2d3051\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-src\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\anhqu\Documents\Computer Science Training\PRIVATE PROJECT\Minecraft_HomeMade\build\_deps\glfw-build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{10A03694-A19D-3215-8A15-7257B5919B7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8BB01D62-3CB8-3899-A88B-4EC9A215FF64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

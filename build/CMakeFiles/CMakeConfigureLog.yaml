@@ -1,0 +1,2473 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/cmake/share/cmake-4.4/Modules/"
+    found: "C:/cmake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.8.2+ce25c0108 for .NET Framework
+      Build started 8/4/2026 11:49:28 AM.
+      
+      Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.97
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/4.4.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Users/anhqu/.cargo/bin/"
+      - "C:/php/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/anhqu/vcpkg/"
+      - "C:/Program Files/NASM/"
+      - "C:/Users/anhqu/scoop/shims/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/cmake/bin/"
+      - "C:/Users/anhqu/.bun/bin/"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/ffmpeg/bin/"
+      - "C:/ProgramData/chocolatey/"
+      - "C:/Program Files/Midnight Commander/"
+      - "C:/ProgramData/chocolatey/lib/nano/"
+      - "C:/Users/anhqu/go/bin/"
+      - "C:/Goasm/"
+      - "C:/Golink/"
+      - "C:/Gorc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/npm/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Users/anhqu/.dotnet/tools/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/"
+      - "C:/xampp/php/"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Users/anhqu/.cargo/bin/"
+      - "C:/php/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/anhqu/vcpkg/"
+      - "C:/Program Files/NASM/"
+      - "C:/Users/anhqu/scoop/shims/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/cmake/bin/"
+      - "C:/Users/anhqu/.bun/bin/"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/ffmpeg/bin/"
+      - "C:/ProgramData/chocolatey/"
+      - "C:/Program Files/Midnight Commander/"
+      - "C:/ProgramData/chocolatey/lib/nano/"
+      - "C:/Users/anhqu/go/bin/"
+      - "C:/Goasm/"
+      - "C:/Golink/"
+      - "C:/Gorc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/npm/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Users/anhqu/.dotnet/tools/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/"
+      - "C:/xampp/php/"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/lld-link.com"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/lld-link.exe"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/lld-link"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Python313/Scripts/lld-link.com"
+      - "C:/Program Files/Python313/Scripts/lld-link.exe"
+      - "C:/Program Files/Python313/Scripts/lld-link"
+      - "C:/Program Files/Python313/lld-link.com"
+      - "C:/Program Files/Python313/lld-link.exe"
+      - "C:/Program Files/Python313/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/lld-link"
+      - "C:/Users/anhqu/.cargo/bin/lld-link.com"
+      - "C:/Users/anhqu/.cargo/bin/lld-link.exe"
+      - "C:/Users/anhqu/.cargo/bin/lld-link"
+      - "C:/php/lld-link.com"
+      - "C:/php/lld-link.exe"
+      - "C:/php/lld-link"
+      - "C:/msys64/mingw64/bin/lld-link.com"
+      - "C:/msys64/mingw64/bin/lld-link.exe"
+      - "C:/msys64/mingw64/bin/lld-link"
+      - "C:/msys64/ucrt64/bin/lld-link.com"
+      - "C:/msys64/ucrt64/bin/lld-link.exe"
+      - "C:/msys64/ucrt64/bin/lld-link"
+      - "C:/Users/anhqu/vcpkg/lld-link.com"
+      - "C:/Users/anhqu/vcpkg/lld-link.exe"
+      - "C:/Users/anhqu/vcpkg/lld-link"
+      - "C:/Program Files/NASM/lld-link.com"
+      - "C:/Program Files/NASM/lld-link.exe"
+      - "C:/Program Files/NASM/lld-link"
+      - "C:/Users/anhqu/scoop/shims/lld-link.com"
+      - "C:/Users/anhqu/scoop/shims/lld-link.exe"
+      - "C:/Users/anhqu/scoop/shims/lld-link"
+      - "C:/Program Files/Git/bin/lld-link.com"
+      - "C:/Program Files/Git/bin/lld-link.exe"
+      - "C:/Program Files/Git/bin/lld-link"
+      - "C:/cmake/bin/lld-link.com"
+      - "C:/cmake/bin/lld-link.exe"
+      - "C:/cmake/bin/lld-link"
+      - "C:/Users/anhqu/.bun/bin/lld-link.com"
+      - "C:/Users/anhqu/.bun/bin/lld-link.exe"
+      - "C:/Users/anhqu/.bun/bin/lld-link"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/lld-link"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/lld-link"
+      - "C:/ffmpeg/bin/lld-link.com"
+      - "C:/ffmpeg/bin/lld-link.exe"
+      - "C:/ffmpeg/bin/lld-link"
+      - "C:/ProgramData/chocolatey/lld-link.com"
+      - "C:/ProgramData/chocolatey/lld-link.exe"
+      - "C:/ProgramData/chocolatey/lld-link"
+      - "C:/Program Files/Midnight Commander/lld-link.com"
+      - "C:/Program Files/Midnight Commander/lld-link.exe"
+      - "C:/Program Files/Midnight Commander/lld-link"
+      - "C:/ProgramData/chocolatey/lib/nano/lld-link.com"
+      - "C:/ProgramData/chocolatey/lib/nano/lld-link.exe"
+      - "C:/ProgramData/chocolatey/lib/nano/lld-link"
+      - "C:/Users/anhqu/go/bin/lld-link.com"
+      - "C:/Users/anhqu/go/bin/lld-link.exe"
+      - "C:/Users/anhqu/go/bin/lld-link"
+      - "C:/Goasm/lld-link.com"
+      - "C:/Goasm/lld-link.exe"
+      - "C:/Goasm/lld-link"
+      - "C:/Golink/lld-link.com"
+      - "C:/Golink/lld-link.exe"
+      - "C:/Golink/lld-link"
+      - "C:/Gorc/lld-link.com"
+      - "C:/Gorc/lld-link.exe"
+      - "C:/Gorc/lld-link"
+      - "C:/Program Files/LLVM/bin/lld-link.com"
+    found: "C:/Program Files/LLVM/bin/lld-link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Users/anhqu/.cargo/bin/"
+      - "C:/php/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/anhqu/vcpkg/"
+      - "C:/Program Files/NASM/"
+      - "C:/Users/anhqu/scoop/shims/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/cmake/bin/"
+      - "C:/Users/anhqu/.bun/bin/"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/ffmpeg/bin/"
+      - "C:/ProgramData/chocolatey/"
+      - "C:/Program Files/Midnight Commander/"
+      - "C:/ProgramData/chocolatey/lib/nano/"
+      - "C:/Users/anhqu/go/bin/"
+      - "C:/Goasm/"
+      - "C:/Golink/"
+      - "C:/Gorc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/npm/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Users/anhqu/.dotnet/tools/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/"
+      - "C:/xampp/php/"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Users/anhqu/.cargo/bin/"
+      - "C:/php/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/anhqu/vcpkg/"
+      - "C:/Program Files/NASM/"
+      - "C:/Users/anhqu/scoop/shims/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/cmake/bin/"
+      - "C:/Users/anhqu/.bun/bin/"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/ffmpeg/bin/"
+      - "C:/ProgramData/chocolatey/"
+      - "C:/Program Files/Midnight Commander/"
+      - "C:/ProgramData/chocolatey/lib/nano/"
+      - "C:/Users/anhqu/go/bin/"
+      - "C:/Goasm/"
+      - "C:/Golink/"
+      - "C:/Gorc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/npm/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Users/anhqu/.dotnet/tools/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/"
+      - "C:/xampp/php/"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/mt.com"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/mt.exe"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/mt"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Python313/Scripts/mt.com"
+      - "C:/Program Files/Python313/Scripts/mt.exe"
+      - "C:/Program Files/Python313/Scripts/mt"
+      - "C:/Program Files/Python313/mt.com"
+      - "C:/Program Files/Python313/mt.exe"
+      - "C:/Program Files/Python313/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files/Go/bin/mt.com"
+      - "C:/Program Files/Go/bin/mt.exe"
+      - "C:/Program Files/Go/bin/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/mt"
+      - "C:/Users/anhqu/.cargo/bin/mt.com"
+      - "C:/Users/anhqu/.cargo/bin/mt.exe"
+      - "C:/Users/anhqu/.cargo/bin/mt"
+      - "C:/php/mt.com"
+      - "C:/php/mt.exe"
+      - "C:/php/mt"
+      - "C:/msys64/mingw64/bin/mt.com"
+      - "C:/msys64/mingw64/bin/mt.exe"
+      - "C:/msys64/mingw64/bin/mt"
+      - "C:/msys64/ucrt64/bin/mt.com"
+      - "C:/msys64/ucrt64/bin/mt.exe"
+      - "C:/msys64/ucrt64/bin/mt"
+      - "C:/Users/anhqu/vcpkg/mt.com"
+      - "C:/Users/anhqu/vcpkg/mt.exe"
+      - "C:/Users/anhqu/vcpkg/mt"
+      - "C:/Program Files/NASM/mt.com"
+      - "C:/Program Files/NASM/mt.exe"
+      - "C:/Program Files/NASM/mt"
+      - "C:/Users/anhqu/scoop/shims/mt.com"
+      - "C:/Users/anhqu/scoop/shims/mt.exe"
+      - "C:/Users/anhqu/scoop/shims/mt"
+      - "C:/Program Files/Git/bin/mt.com"
+      - "C:/Program Files/Git/bin/mt.exe"
+      - "C:/Program Files/Git/bin/mt"
+      - "C:/cmake/bin/mt.com"
+      - "C:/cmake/bin/mt.exe"
+      - "C:/cmake/bin/mt"
+      - "C:/Users/anhqu/.bun/bin/mt.com"
+      - "C:/Users/anhqu/.bun/bin/mt.exe"
+      - "C:/Users/anhqu/.bun/bin/mt"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/mt"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/mt.com"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/mt"
+      - "C:/ffmpeg/bin/mt.com"
+      - "C:/ffmpeg/bin/mt.exe"
+      - "C:/ffmpeg/bin/mt"
+      - "C:/ProgramData/chocolatey/mt.com"
+      - "C:/ProgramData/chocolatey/mt.exe"
+      - "C:/ProgramData/chocolatey/mt"
+      - "C:/Program Files/Midnight Commander/mt.com"
+      - "C:/Program Files/Midnight Commander/mt.exe"
+      - "C:/Program Files/Midnight Commander/mt"
+      - "C:/ProgramData/chocolatey/lib/nano/mt.com"
+      - "C:/ProgramData/chocolatey/lib/nano/mt.exe"
+      - "C:/ProgramData/chocolatey/lib/nano/mt"
+      - "C:/Users/anhqu/go/bin/mt.com"
+      - "C:/Users/anhqu/go/bin/mt.exe"
+      - "C:/Users/anhqu/go/bin/mt"
+      - "C:/Goasm/mt.com"
+      - "C:/Goasm/mt.exe"
+      - "C:/Goasm/mt"
+      - "C:/Golink/mt.com"
+      - "C:/Golink/mt.exe"
+      - "C:/Golink/mt"
+      - "C:/Gorc/mt.com"
+      - "C:/Gorc/mt.exe"
+      - "C:/Gorc/mt"
+      - "C:/Program Files/LLVM/bin/mt.com"
+      - "C:/Program Files/LLVM/bin/mt.exe"
+      - "C:/Program Files/LLVM/bin/mt"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/anhqu/AppData/Roaming/npm/mt.com"
+      - "C:/Users/anhqu/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/anhqu/AppData/Roaming/npm/mt"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/mt.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/mt.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/mt"
+      - "C:/Users/anhqu/.dotnet/tools/mt.com"
+      - "C:/Users/anhqu/.dotnet/tools/mt.exe"
+      - "C:/Users/anhqu/.dotnet/tools/mt"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/mt.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/mt.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/mt"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/mt"
+      - "C:/xampp/php/mt.com"
+      - "C:/xampp/php/mt.exe"
+      - "C:/xampp/php/mt"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/mt.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/mt.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/mt"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Users/anhqu/.cargo/bin/"
+      - "C:/php/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/anhqu/vcpkg/"
+      - "C:/Program Files/NASM/"
+      - "C:/Users/anhqu/scoop/shims/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/cmake/bin/"
+      - "C:/Users/anhqu/.bun/bin/"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/ffmpeg/bin/"
+      - "C:/ProgramData/chocolatey/"
+      - "C:/Program Files/Midnight Commander/"
+      - "C:/ProgramData/chocolatey/lib/nano/"
+      - "C:/Users/anhqu/go/bin/"
+      - "C:/Goasm/"
+      - "C:/Golink/"
+      - "C:/Gorc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/npm/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Users/anhqu/.dotnet/tools/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/"
+      - "C:/xampp/php/"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/cmake/share/cmake-4.4/Modules/"
+    found: "C:/cmake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.8.2+ce25c0108 for .NET Framework
+      Build started 8/4/2026 11:49:29 AM.
+      
+      Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\4.4.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.93
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/4.4.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/cmake/share/cmake-4.4/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Users/anhqu/.cargo/bin/"
+      - "C:/php/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/anhqu/vcpkg/"
+      - "C:/Program Files/NASM/"
+      - "C:/Users/anhqu/scoop/shims/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/cmake/bin/"
+      - "C:/Users/anhqu/.bun/bin/"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/ffmpeg/bin/"
+      - "C:/ProgramData/chocolatey/"
+      - "C:/Program Files/Midnight Commander/"
+      - "C:/ProgramData/chocolatey/lib/nano/"
+      - "C:/Users/anhqu/go/bin/"
+      - "C:/Goasm/"
+      - "C:/Golink/"
+      - "C:/Gorc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/npm/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Users/anhqu/.dotnet/tools/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/"
+      - "C:/xampp/php/"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/cmake/bin/"
+      - "C:/cmake/sbin/"
+      - "C:/cmake/"
+      - "C:/Program Files (x86)/MinecraftClone/bin/"
+      - "C:/Program Files (x86)/MinecraftClone/sbin/"
+      - "C:/Program Files (x86)/MinecraftClone/"
+    searched_directories:
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/rc.com"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/rc.exe"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/rc"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Python313/Scripts/rc.com"
+      - "C:/Program Files/Python313/Scripts/rc.exe"
+      - "C:/Program Files/Python313/Scripts/rc"
+      - "C:/Program Files/Python313/rc.com"
+      - "C:/Program Files/Python313/rc.exe"
+      - "C:/Program Files/Python313/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files/Go/bin/rc.com"
+      - "C:/Program Files/Go/bin/rc.exe"
+      - "C:/Program Files/Go/bin/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/rc"
+      - "C:/Users/anhqu/.cargo/bin/rc.com"
+      - "C:/Users/anhqu/.cargo/bin/rc.exe"
+      - "C:/Users/anhqu/.cargo/bin/rc"
+      - "C:/php/rc.com"
+      - "C:/php/rc.exe"
+      - "C:/php/rc"
+      - "C:/msys64/mingw64/bin/rc.com"
+      - "C:/msys64/mingw64/bin/rc.exe"
+      - "C:/msys64/mingw64/bin/rc"
+      - "C:/msys64/ucrt64/bin/rc.com"
+      - "C:/msys64/ucrt64/bin/rc.exe"
+      - "C:/msys64/ucrt64/bin/rc"
+      - "C:/Users/anhqu/vcpkg/rc.com"
+      - "C:/Users/anhqu/vcpkg/rc.exe"
+      - "C:/Users/anhqu/vcpkg/rc"
+      - "C:/Program Files/NASM/rc.com"
+      - "C:/Program Files/NASM/rc.exe"
+      - "C:/Program Files/NASM/rc"
+      - "C:/Users/anhqu/scoop/shims/rc.com"
+      - "C:/Users/anhqu/scoop/shims/rc.exe"
+      - "C:/Users/anhqu/scoop/shims/rc"
+      - "C:/Program Files/Git/bin/rc.com"
+      - "C:/Program Files/Git/bin/rc.exe"
+      - "C:/Program Files/Git/bin/rc"
+      - "C:/cmake/bin/rc.com"
+      - "C:/cmake/bin/rc.exe"
+      - "C:/cmake/bin/rc"
+      - "C:/Users/anhqu/.bun/bin/rc.com"
+      - "C:/Users/anhqu/.bun/bin/rc.exe"
+      - "C:/Users/anhqu/.bun/bin/rc"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/rc"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/rc.com"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/rc"
+      - "C:/ffmpeg/bin/rc.com"
+      - "C:/ffmpeg/bin/rc.exe"
+      - "C:/ffmpeg/bin/rc"
+      - "C:/ProgramData/chocolatey/rc.com"
+      - "C:/ProgramData/chocolatey/rc.exe"
+      - "C:/ProgramData/chocolatey/rc"
+      - "C:/Program Files/Midnight Commander/rc.com"
+      - "C:/Program Files/Midnight Commander/rc.exe"
+      - "C:/Program Files/Midnight Commander/rc"
+      - "C:/ProgramData/chocolatey/lib/nano/rc.com"
+      - "C:/ProgramData/chocolatey/lib/nano/rc.exe"
+      - "C:/ProgramData/chocolatey/lib/nano/rc"
+      - "C:/Users/anhqu/go/bin/rc.com"
+      - "C:/Users/anhqu/go/bin/rc.exe"
+      - "C:/Users/anhqu/go/bin/rc"
+      - "C:/Goasm/rc.com"
+      - "C:/Goasm/rc.exe"
+      - "C:/Goasm/rc"
+      - "C:/Golink/rc.com"
+      - "C:/Golink/rc.exe"
+      - "C:/Golink/rc"
+      - "C:/Gorc/rc.com"
+      - "C:/Gorc/rc.exe"
+      - "C:/Gorc/rc"
+      - "C:/Program Files/LLVM/bin/rc.com"
+      - "C:/Program Files/LLVM/bin/rc.exe"
+      - "C:/Program Files/LLVM/bin/rc"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/anhqu/AppData/Roaming/npm/rc.com"
+      - "C:/Users/anhqu/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/anhqu/AppData/Roaming/npm/rc"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/rc.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/rc.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/rc"
+      - "C:/Users/anhqu/.dotnet/tools/rc.com"
+      - "C:/Users/anhqu/.dotnet/tools/rc.exe"
+      - "C:/Users/anhqu/.dotnet/tools/rc"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/rc.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/rc.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/rc"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/rc.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/rc.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/rc"
+      - "C:/xampp/php/rc.com"
+      - "C:/xampp/php/rc.exe"
+      - "C:/xampp/php/rc"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/rc.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/rc.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/rc"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/cmake/bin/rc.com"
+      - "C:/cmake/bin/rc.exe"
+      - "C:/cmake/bin/rc"
+      - "C:/cmake/sbin/rc.com"
+      - "C:/cmake/sbin/rc.exe"
+      - "C:/cmake/sbin/rc"
+      - "C:/cmake/rc.com"
+      - "C:/cmake/rc.exe"
+      - "C:/cmake/rc"
+      - "C:/Program Files (x86)/MinecraftClone/bin/rc.com"
+      - "C:/Program Files (x86)/MinecraftClone/bin/rc.exe"
+      - "C:/Program Files (x86)/MinecraftClone/bin/rc"
+      - "C:/Program Files (x86)/MinecraftClone/sbin/rc.com"
+      - "C:/Program Files (x86)/MinecraftClone/sbin/rc.exe"
+      - "C:/Program Files (x86)/MinecraftClone/sbin/rc"
+      - "C:/Program Files (x86)/MinecraftClone/rc.com"
+      - "C:/Program Files (x86)/MinecraftClone/rc.exe"
+      - "C:/Program Files (x86)/MinecraftClone/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MinecraftClone"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/cmake"
+        - "C:/Program Files (x86)/MinecraftClone"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-h1zizf"
+      binary: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-h1zizf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "Embedded"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-h1zizf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_480be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.8.2+ce25c0108 for .NET Framework
+        Build started 8/4/2026 11:49:31 AM.
+        
+        Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\cmTC_480be.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\Debug\\".
+          Creating directory "cmTC_480be.dir\\Debug\\cmTC_480be.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_480be.dir\\Debug\\cmTC_480be.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_480be.dir\\Debug\\cmTC_480be.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_480be.dir\\Debug\\\\" /Fd"cmTC_480be.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\cmake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_480be.dir\\Debug\\\\" /Fd"cmTC_480be.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\cmake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\Debug\\cmTC_480be.exe" /INCREMENTAL /ILK:"cmTC_480be.dir\\Debug\\cmTC_480be.ilk" /NOLOGO /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-h1zizf/Debug/cmTC_480be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-h1zizf/Debug/cmTC_480be.lib" /MACHINE:X64  /machine:x64 cmTC_480be.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_480be.vcxproj -> C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\Debug\\cmTC_480be.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\Debug\\cmTC_480be.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_480be.dir\\Debug\\cmTC_480be.tlog\\cmTC_480be.write.1u.tlog" "cmTC_480be.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\Debug\\cmTC_480be.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_480be.dir\\Debug\\cmTC_480be.tlog\\cmTC_480be.write.1u.tlog" "cmTC_480be.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\Debug\\cmTC_480be.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_480be.dir\\Debug\\cmTC_480be.tlog\\cmTC_480be.write.1u.tlog" "cmTC_480be.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_480be.dir\\Debug\\cmTC_480be.tlog\\unsuccessfulbuild".
+          Touching "cmTC_480be.dir\\Debug\\cmTC_480be.tlog\\cmTC_480be.lastbuildstate".
+        Done Building Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\cmTC_480be.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.21
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h1zizf\\Debug\\cmTC_480be.exe" /INCREMENTAL /ILK:"cmTC_480be.dir\\Debug\\cmTC_480be.ilk" /NOLOGO /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-h1zizf/Debug/cmTC_480be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-h1zizf/Debug/cmTC_480be.lib" /MACHINE:X64  /machine:x64 cmTC_480be.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36248.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-gtoqnc"
+      binary: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-gtoqnc"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "Embedded"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-gtoqnc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e7b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.8.2+ce25c0108 for .NET Framework
+        Build started 8/4/2026 11:49:32 AM.
+        
+        Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\cmTC_6e7b8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\Debug\\".
+          Creating directory "cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6e7b8.dir\\Debug\\\\" /Fd"cmTC_6e7b8.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\cmake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6e7b8.dir\\Debug\\\\" /Fd"cmTC_6e7b8.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\cmake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\Debug\\cmTC_6e7b8.exe" /INCREMENTAL /ILK:"cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.ilk" /NOLOGO /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-gtoqnc/Debug/cmTC_6e7b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-gtoqnc/Debug/cmTC_6e7b8.lib" /MACHINE:X64  /machine:x64 cmTC_6e7b8.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6e7b8.vcxproj -> C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\Debug\\cmTC_6e7b8.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\Debug\\cmTC_6e7b8.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.tlog\\cmTC_6e7b8.write.1u.tlog" "cmTC_6e7b8.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\Debug\\cmTC_6e7b8.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.tlog\\cmTC_6e7b8.write.1u.tlog" "cmTC_6e7b8.dir\\Debug\\vcpkg.applocal.log"" exited with code 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\anhqu\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\Debug\\cmTC_6e7b8.exe" "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.tlog\\cmTC_6e7b8.write.1u.tlog" "cmTC_6e7b8.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.tlog\\cmTC_6e7b8.lastbuildstate".
+        Done Building Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\cmTC_6e7b8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.01
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gtoqnc\\Debug\\cmTC_6e7b8.exe" /INCREMENTAL /ILK:"cmTC_6e7b8.dir\\Debug\\cmTC_6e7b8.ilk" /NOLOGO /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-gtoqnc/Debug/cmTC_6e7b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-gtoqnc/Debug/cmTC_6e7b8.lib" /MACHINE:X64  /machine:x64 cmTC_6e7b8.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/cmake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36248.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/cmake/share/cmake-4.4/Modules/FetchContent.cmake:1889 (find_package)"
+      - "C:/cmake/share/cmake-4.4/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "C:/cmake/share/cmake-4.4/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/cmake/share/cmake-4.4/Modules/FetchContent.cmake:2160 (cmake_language)"
+      - "C:/cmake/share/cmake-4.4/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
+      - "CMakeLists.txt:40 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/"
+      - "C:/Users/anhqu/.cargo/bin/"
+      - "C:/php/"
+      - "C:/msys64/mingw64/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/anhqu/vcpkg/"
+      - "C:/Program Files/NASM/"
+      - "C:/Users/anhqu/scoop/shims/"
+      - "C:/Program Files/Git/bin/"
+      - "C:/cmake/bin/"
+      - "C:/Users/anhqu/.bun/bin/"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/ffmpeg/bin/"
+      - "C:/ProgramData/chocolatey/"
+      - "C:/Program Files/Midnight Commander/"
+      - "C:/ProgramData/chocolatey/lib/nano/"
+      - "C:/Users/anhqu/go/bin/"
+      - "C:/Goasm/"
+      - "C:/Golink/"
+      - "C:/Gorc/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/anhqu/AppData/Roaming/npm/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/"
+      - "C:/Users/anhqu/.dotnet/tools/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/"
+      - "C:/xampp/php/"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/cmake/bin/"
+      - "C:/cmake/sbin/"
+      - "C:/cmake/"
+      - "C:/Program Files (x86)/MinecraftClone/bin/"
+      - "C:/Program Files (x86)/MinecraftClone/sbin/"
+      - "C:/Program Files (x86)/MinecraftClone/"
+      - "C:/Users/anhqu/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/git.cmd.com"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/git.cmd.exe"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/git.cmd"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.cmd"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files/Python313/Scripts/git.cmd.com"
+      - "C:/Program Files/Python313/Scripts/git.cmd.exe"
+      - "C:/Program Files/Python313/Scripts/git.cmd"
+      - "C:/Program Files/Python313/git.cmd.com"
+      - "C:/Program Files/Python313/git.cmd.exe"
+      - "C:/Program Files/Python313/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/git.cmd"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/bin/git.cmd"
+      - "C:/Program Files/Go/bin/git.cmd.com"
+      - "C:/Program Files/Go/bin/git.cmd.exe"
+      - "C:/Program Files/Go/bin/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/git.cmd.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/DTS/Binn/git.cmd"
+      - "C:/Users/anhqu/.cargo/bin/git.cmd.com"
+      - "C:/Users/anhqu/.cargo/bin/git.cmd.exe"
+      - "C:/Users/anhqu/.cargo/bin/git.cmd"
+      - "C:/php/git.cmd.com"
+      - "C:/php/git.cmd.exe"
+      - "C:/php/git.cmd"
+      - "C:/msys64/mingw64/bin/git.cmd.com"
+      - "C:/msys64/mingw64/bin/git.cmd.exe"
+      - "C:/msys64/mingw64/bin/git.cmd"
+      - "C:/msys64/ucrt64/bin/git.cmd.com"
+      - "C:/msys64/ucrt64/bin/git.cmd.exe"
+      - "C:/msys64/ucrt64/bin/git.cmd"
+      - "C:/Users/anhqu/vcpkg/git.cmd.com"
+      - "C:/Users/anhqu/vcpkg/git.cmd.exe"
+      - "C:/Users/anhqu/vcpkg/git.cmd"
+      - "C:/Program Files/NASM/git.cmd.com"
+      - "C:/Program Files/NASM/git.cmd.exe"
+      - "C:/Program Files/NASM/git.cmd"
+      - "C:/Users/anhqu/scoop/shims/git.cmd.com"
+      - "C:/Users/anhqu/scoop/shims/git.cmd.exe"
+      - "C:/Users/anhqu/scoop/shims/git.cmd"
+      - "C:/Program Files/Git/bin/git.cmd.com"
+      - "C:/Program Files/Git/bin/git.cmd.exe"
+      - "C:/Program Files/Git/bin/git.cmd"
+      - "C:/cmake/bin/git.cmd.com"
+      - "C:/cmake/bin/git.cmd.exe"
+      - "C:/cmake/bin/git.cmd"
+      - "C:/Users/anhqu/.bun/bin/git.cmd.com"
+      - "C:/Users/anhqu/.bun/bin/git.cmd.exe"
+      - "C:/Users/anhqu/.bun/bin/git.cmd"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowPowerShell/v1.0/git.cmd"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Python/Python313/Scripts/git.cmd"
+      - "C:/ffmpeg/bin/git.cmd.com"
+      - "C:/ffmpeg/bin/git.cmd.exe"
+      - "C:/ffmpeg/bin/git.cmd"
+      - "C:/ProgramData/chocolatey/git.cmd.com"
+      - "C:/ProgramData/chocolatey/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/git.cmd"
+      - "C:/Program Files/Midnight Commander/git.cmd.com"
+      - "C:/Program Files/Midnight Commander/git.cmd.exe"
+      - "C:/Program Files/Midnight Commander/git.cmd"
+      - "C:/ProgramData/chocolatey/lib/nano/git.cmd.com"
+      - "C:/ProgramData/chocolatey/lib/nano/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/lib/nano/git.cmd"
+      - "C:/Users/anhqu/go/bin/git.cmd.com"
+      - "C:/Users/anhqu/go/bin/git.cmd.exe"
+      - "C:/Users/anhqu/go/bin/git.cmd"
+      - "C:/Goasm/git.cmd.com"
+      - "C:/Goasm/git.cmd.exe"
+      - "C:/Goasm/git.cmd"
+      - "C:/Golink/git.cmd.com"
+      - "C:/Golink/git.cmd.exe"
+      - "C:/Golink/git.cmd"
+      - "C:/Gorc/git.cmd.com"
+      - "C:/Gorc/git.cmd.exe"
+      - "C:/Gorc/git.cmd"
+      - "C:/Program Files/LLVM/bin/git.cmd.com"
+      - "C:/Program Files/LLVM/bin/git.cmd.exe"
+      - "C:/Program Files/LLVM/bin/git.cmd"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/anhqu/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Microsoft VS Code Insiders/bin/git.cmd"
+      - "C:/Users/anhqu/.dotnet/tools/git.cmd.com"
+      - "C:/Users/anhqu/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/anhqu/.dotnet/tools/git.cmd"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Antigravity IDE/bin/git.cmd"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/Ollama/git.cmd"
+      - "C:/xampp/php/git.cmd.com"
+      - "C:/xampp/php/git.cmd.exe"
+      - "C:/xampp/php/git.cmd"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Local/Programs/cursor/resources/app/bin/git.cmd"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/cmake/bin/git.cmd.com"
+      - "C:/cmake/bin/git.cmd.exe"
+      - "C:/cmake/bin/git.cmd"
+      - "C:/cmake/sbin/git.cmd.com"
+      - "C:/cmake/sbin/git.cmd.exe"
+      - "C:/cmake/sbin/git.cmd"
+      - "C:/cmake/git.cmd.com"
+      - "C:/cmake/git.cmd.exe"
+      - "C:/cmake/git.cmd"
+      - "C:/Program Files (x86)/MinecraftClone/bin/git.cmd.com"
+      - "C:/Program Files (x86)/MinecraftClone/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/MinecraftClone/bin/git.cmd"
+      - "C:/Program Files (x86)/MinecraftClone/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/MinecraftClone/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/MinecraftClone/sbin/git.cmd"
+      - "C:/Program Files (x86)/MinecraftClone/git.cmd.com"
+      - "C:/Program Files (x86)/MinecraftClone/git.cmd.exe"
+      - "C:/Program Files (x86)/MinecraftClone/git.cmd"
+      - "C:/Users/anhqu/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/anhqu/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/anhqu/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/git.com"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/git.exe"
+      - "C:/Users/anhqu/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/git"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.com"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git.exe"
+      - "C:/Users/anhqu/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files/Python313/Scripts/git.com"
+      - "C:/Program Files/Python313/Scripts/git.exe"
+      - "C:/Program Files/Python313/Scripts/git"
+      - "C:/Program Files/Python313/git.com"
+      - "C:/Program Files/Python313/git.exe"
+      - "C:/Program Files/Python313/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\anhqu\\.vscode\\extensions\\vadimcn.vscode-lldb-1.12.1\\bin"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\anhqu\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\160\\DTS\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\DTS\\Binn\\"
+        - "C:\\Users\\anhqu\\.cargo\\bin"
+        - "C:\\php"
+        - "C:\\msys64\\mingw64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\anhqu\\vcpkg"
+        - "C:\\Program Files\\NASM"
+        - "C:\\Users\\anhqu\\scoop\\shims"
+        - "C:\\Program Files\\Git\\bin"
+        - "C:\\cmake\\bin"
+        - "C:\\Users\\anhqu\\.bun\\bin"
+        - "C:\\Windows\\System32\\WindowPowerShell\\v1.0"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\ffmpeg\\bin"
+        - "C:\\ProgramData\\chocolatey"
+        - "C:\\Program Files\\Midnight Commander"
+        - "C:\\ProgramData\\chocolatey\\lib\\nano"
+        - "C:\\Users\\anhqu\\go\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Goasm"
+        - "C:\\Golink"
+        - "C:\\Gorc"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Roaming\\npm"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\xampp\\php"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Users\\anhqu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\anhqu\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MinecraftClone"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/cmake"
+        - "C:/Program Files (x86)/MinecraftClone"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "C:/cmake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/cmake/share/cmake-4.4/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/cmake/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/glfw-src/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-26sktn"
+      binary: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-26sktn"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Z7 /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-src/CMake/modules"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "Embedded"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-26sktn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1dc4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.8.2+ce25c0108 for .NET Framework
+        Build started 8/4/2026 11:49:40 AM.
+        
+        Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\cmTC_1dc4f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\Debug\\".
+          Creating directory "cmTC_1dc4f.dir\\Debug\\cmTC_1dc4f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1dc4f.dir\\Debug\\cmTC_1dc4f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1dc4f.dir\\Debug\\cmTC_1dc4f.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1dc4f.dir\\Debug\\\\" /Fd"cmTC_1dc4f.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_1dc4f.dir\\Debug\\\\" /Fd"cmTC_1dc4f.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\src.c"
+          src.c
+        C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\cmTC_1dc4f.vcxproj]
+        Done Building Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\cmTC_1dc4f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\cmTC_1dc4f.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-26sktn\\cmTC_1dc4f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/cmake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/cmake/share/cmake-4.4/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-em4ge2"
+      binary: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-em4ge2"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Z7 /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-src/CMake/modules"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "Embedded"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-em4ge2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_019f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.8.2+ce25c0108 for .NET Framework
+        Build started 8/4/2026 11:49:40 AM.
+        
+        Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\cmTC_019f6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\Debug\\".
+          Creating directory "cmTC_019f6.dir\\Debug\\cmTC_019f6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_019f6.dir\\Debug\\cmTC_019f6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_019f6.dir\\Debug\\cmTC_019f6.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_019f6.dir\\Debug\\\\" /Fd"cmTC_019f6.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_019f6.dir\\Debug\\\\" /Fd"cmTC_019f6.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\Debug\\cmTC_019f6.exe" /INCREMENTAL /ILK:"cmTC_019f6.dir\\Debug\\cmTC_019f6.ilk" /NOLOGO /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-em4ge2/Debug/cmTC_019f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-em4ge2/Debug/cmTC_019f6.lib" /MACHINE:X64  /machine:x64 cmTC_019f6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\cmTC_019f6.vcxproj]
+        Done Building Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\cmTC_019f6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\cmTC_019f6.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-em4ge2\\cmTC_019f6.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/cmake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/cmake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/cmake/share/cmake-4.4/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-zhn8uu"
+      binary: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-zhn8uu"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Z7 /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/_deps/glfw-src/CMake/modules"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "Embedded"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-zhn8uu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_53c4d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.8.2+ce25c0108 for .NET Framework
+        Build started 8/4/2026 11:49:41 AM.
+        
+        Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\cmTC_53c4d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\Debug\\".
+          Creating directory "cmTC_53c4d.dir\\Debug\\cmTC_53c4d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_53c4d.dir\\Debug\\cmTC_53c4d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_53c4d.dir\\Debug\\cmTC_53c4d.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_53c4d.dir\\Debug\\\\" /Fd"cmTC_53c4d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\include" /Z7 /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_53c4d.dir\\Debug\\\\" /Fd"cmTC_53c4d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\Debug\\cmTC_53c4d.exe" /INCREMENTAL /ILK:"cmTC_53c4d.dir\\Debug\\cmTC_53c4d.ilk" /NOLOGO /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\anhqu\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-zhn8uu/Debug/cmTC_53c4d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/anhqu/Documents/Computer Science Training/PRIVATE PROJECT/Minecraft_HomeMade/build/CMakeFiles/CMakeScratch/TryCompile-zhn8uu/Debug/cmTC_53c4d.lib" /MACHINE:X64  /machine:x64 cmTC_53c4d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\cmTC_53c4d.vcxproj]
+        Done Building Project "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\cmTC_53c4d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\cmTC_53c4d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\anhqu\\Documents\\Computer Science Training\\PRIVATE PROJECT\\Minecraft_HomeMade\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zhn8uu\\cmTC_53c4d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 1
+...
